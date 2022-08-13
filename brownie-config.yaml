@@ -1,0 +1,6 @@
+networks:
+    ganache:
+      chainid: 5775
+      id: ganache-local
+      host: http://localhost:7545
+      port: 7887

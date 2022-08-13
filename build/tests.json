@@ -1,0 +1,15 @@
+{
+  "contracts": {
+    "Token": "d0c24ae4be17d62bf1fb4885bc8575b66b8915aa"
+  },
+  "tests": {
+    "tests/test_token.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "...",
+      "sha1": "f78cf414584983bf3a1820c64f14492852ffdff6",
+      "txhash": []
+    }
+  },
+  "tx": {}
+}
