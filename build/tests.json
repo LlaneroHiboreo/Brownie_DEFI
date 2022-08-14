@@ -1,13 +1,21 @@
 {
   "contracts": {
+    "Exchange": "4224d44fc77e3a0ff3274a8dbd23778248909415",
     "Token": "d0c24ae4be17d62bf1fb4885bc8575b66b8915aa"
   },
   "tests": {
+    "tests/test_exchange.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "..",
+      "sha1": "43291e4c7a9dea3a3391d5482b9e9b34937c0854",
+      "txhash": []
+    },
     "tests/test_token.py": {
       "coverage": false,
       "isolated": false,
       "results": "...",
-      "sha1": "f78cf414584983bf3a1820c64f14492852ffdff6",
+      "sha1": "03a9982f649d41145371ce6a9a26ff151b19a158",
       "txhash": []
     }
   },

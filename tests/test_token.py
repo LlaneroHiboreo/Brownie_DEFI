@@ -1,6 +1,6 @@
 import os
 from brownie import Token, accounts
-from scripts.deploy_token import deploy_sc_token
+from scripts.deploy_token import deploy_token
 import pytest
 from web3 import Web3
 
@@ -12,7 +12,7 @@ def test_setup_token():
     dply_tk1 = accounts[0]
 
     # deploy 1 token
-    tk1 = deploy_sc_token('Token 1', 'TK1', 1000000, dply_tk1)
+    tk1 = deploy_token('Token 1', 'TK1', 1000000, dply_tk1)
 
     return (tk1)
 
